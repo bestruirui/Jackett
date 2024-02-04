@@ -41,6 +41,6 @@ RUN \
 
 # add local files
 COPY root/ /
-COPY config /
+COPY config/ /config
 # ports and volumes
 EXPOSE 9117
